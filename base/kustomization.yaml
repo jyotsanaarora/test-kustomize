@@ -6,4 +6,4 @@ resources:
 configMapGenerator:
 - name: config
   literals:
-    - custom="My Custom Config test again"
+    - custom="My Custom Config test app"
