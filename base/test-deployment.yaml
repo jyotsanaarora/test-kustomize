@@ -5,7 +5,13 @@ metadata:
   annotations:
     app: nginx
 spec:
+  selector:
+    matchLabels:
+      test: kustomize
   template:
+    metadata:
+       labels:
+         test: kustomize
     spec:
       containers:
       - name: nginxapp
