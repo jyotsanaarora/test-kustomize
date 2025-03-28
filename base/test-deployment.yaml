@@ -21,4 +21,4 @@ spec:
           valueFrom:
             configMapKeyRef:
               name: config
-              key: common
+              key: custom
